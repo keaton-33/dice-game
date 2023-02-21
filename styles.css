@@ -1,0 +1,126 @@
+body {
+    background-color: #393E46;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: "Indie Flower", cursive;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+}
+
+#dice-container {
+    width: 70%;
+    /*background-color: green;*/
+    /*border-style: solid;*/
+    text-align: center;
+    margin: auto;
+}
+
+.dice {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4ECCA3;
+    border-style: solid;
+    border-color: #232931;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+#player1-dice {
+    display: inline-block;
+    margin: 25px;
+}
+
+#player2-dice {
+    display: inline-block;
+    margin: 25px;
+}
+
+.dot {
+    height: 24%;
+    width: 24%;
+    background-color: #232931;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+
+#p1-dotCenter, #p2-dotCenter {
+    left: 38%;
+    top: 38%;
+    visibility: hidden;
+}
+
+#p1-dot1, #p2-dot1 {
+    left: 10%;
+    top: 10%;
+    visibility: visible;
+}
+
+#p1-dot2, #p2-dot2 {
+    left: 66%;
+    top: 10%;
+    visibility: visible;
+}
+
+#p1-dot3, #p2-dot3 {
+    left: 10%;
+    top: 38%;
+    visibility: visible;
+}
+
+#p1-dot4, #p2-dot4 {
+    left: 66%;
+    top: 38%;
+    visibility: visible;
+}
+
+#p1-dot5, #p2-dot5 {
+    left: 10%;
+    top: 66%;
+    visibility: visible;
+}
+
+#p1-dot6, #p2-dot6 {
+    left: 66%;
+    top: 66%;
+    visibility: visible;
+}
+
+.button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #232931;
+    font-size: 2rem;
+    background: #4ECCA3;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    border-color: #232931;
+}
+
+.btn:hover {
+  background: #4a9e82;
+  text-decoration: none;
+}
